@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   height="128.00002"
+   viewBox="0 0 394.8093 128.00002"
+   width="394.8093"
+   version="1.1"
+   id="svg228"
+   sodipodi:docname="Plex.svg"
+   inkscape:export-filename="../e2b66e45/Plex.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs232" />
+  <sodipodi:namedview
+     id="namedview230"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false" />
+  <radialGradient
+     id="a"
+     cx="3496.9575"
+     cy="388.73517"
+     gradientTransform="scale(0.78082978,1.2806889)"
+     gradientUnits="userSpaceOnUse"
+     r="722.62866">
+    <stop
+       offset="0"
+       stop-color="#f9be03"
+       id="stop211" />
+    <stop
+       offset="1"
+       stop-color="#cc7c19"
+       id="stop213" />
+  </radialGradient>
+  <g
+     fill-rule="evenodd"
+     transform="matrix(0.12793603,0,0,0.12793603,-2.0410156e-6,3.8005726e-6)"
+     id="g226">
+    <path
+       d="m 3085.99,0 h -290 l -290,500 290,500 h 289.747 L 2795.99,500.25 Z"
+       id="path216" />
+    <path
+       d="m 2186,0 h 290 l 320,500.25 -320,500.25 h -290 l 320,-500.25 z"
+       fill="url(#a)"
+       id="path218"
+       style="fill:url(#a)" />
+    <path
+       d="M 2085.947,1000 H 1508.874 V 0 h 577.073 V 173.737 H 1721.34 V 393.3 h 339.254 V 567.03 H 1721.34 v 257.865 h 364.607 z m -1294.671,0 V 0 h 212.04 v 824.895 h 405.61 V 1000 Z"
+       id="path220" />
+    <path
+       d="m 589.947,558.824 c -67.268,57.007 -162.91,85.5 -286.938,85.5 h -90.97 V 1000 H 0 V 470.338 l 290,0.36 c 177.563,-2.07 186.842,-110.82 186.842,-148.498 0,-34.98 0,-146.755 -157.842,-148.5 L 0,173.703 V 0 H 319.424 C 440.717,0 532.94,26.107 596.1,78.32 c 63.153,52.214 94.734,130.072 94.734,233.582 0,107.625 -33.632,189.928 -100.887,246.922 z"
+       id="path222" />
+    <path
+       d="M 0,110 H 212.2 V 539 H 0 Z"
+       id="path224" />
+  </g>
+</svg>

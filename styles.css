@@ -1,12 +1,12 @@
 /* Custom Variables | Color Scheme */
 
 :root {
-  --primary: #769aee;
-  --primary-focus: #ffffff;
-  --text-light: #eeeeee;
-  --background: #17191C;
-  --background-light: rgba(0, 0, 0, 0.2);
-  --background-focus: rgba(0, 0, 0, 1);
+  --primary: rgb(118, 154, 238);
+  --primary-focus: rgb(255, 255, 255);
+  --text-light: rgb(238, 238, 238);
+  --background: rgb(23, 25, 28);
+  --background-light: rgba(255, 255, 255, 0.2);
+  --background-focus: rgb(23, 24, 48);
 }
 
 *,
@@ -22,7 +22,7 @@ body {
   font-family: "Open Sans", sans-serif;
 
   padding: 0rem 9rem;
-  background-image: url('mohammad-alizade-XgeZu2jBaVI-unsplash.jpg');
+  background-image: url('background.jpg');
   background-size: cover;
   background-color: var(--background);
   box-sizing: border-box;
