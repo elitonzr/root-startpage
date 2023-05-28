@@ -68,7 +68,7 @@ img {
   font-weight: 600;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 500px) {
   h1 {
     display: none;
   }
@@ -78,13 +78,28 @@ img {
   }
 
   #currentTime {
-    font-size: 3rem;
-    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
   }
 
   #fullDate {
     text-align: center;
   }
+
+  img {
+    width: 25px;
+  }
+
+  .card__name {
+    font-size: 10px;
+    text-align: center;
+  }
+  .card:link,
+  .card:visited {
+    margin: 0.5rem;
+    padding: 0.5rem 3rem;
+  }
+
 }
 
 .card:link,
