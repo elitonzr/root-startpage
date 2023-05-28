@@ -1,12 +1,15 @@
 /* Custom Variables | Color Scheme */
 
 :root {
-  --primary: rgb(118, 154, 238);
+  --primary: rgb(77, 88, 114);
+  /* (118, 154, 238); */
   --primary-focus: rgb(255, 255, 255);
   --text-light: rgb(238, 238, 238);
   --background: rgb(23, 25, 28);
   --background-light: rgba(255, 255, 255, 0.2);
-  --background-focus: rgb(23, 24, 48);
+  /* (255, 255, 255, 0.2); */
+  --background-focus: rgb(136, 136, 136);
+  /* (23, 24, 48); */
 }
 
 *,
@@ -22,7 +25,8 @@ body {
   font-family: "Open Sans", sans-serif;
 
   padding: 0rem 9rem;
-  background-image: url('background.jpg');
+  background-image: url('background-15.jpg');
+  /* background-1.jpg, background-2.jpg, background-....jpg */
   background-size: cover;
   background-color: var(--background);
   box-sizing: border-box;
@@ -83,10 +87,6 @@ img {
   }
 }
 
-/* .card {
-  flex-grow: 1;
-} */
-
 .card:link,
 .card:visited {
   color: white;
@@ -96,8 +96,8 @@ img {
   padding: 1rem 2rem;
 
   background-color: var(--background-light);
-  border-radius: 21px;
-  border: 2px solid transparent;
+  border-radius: 5px;
+  /* border: 2px solid transparent; */
 
   display: flex;
   justify-content: center;
@@ -129,8 +129,8 @@ img {
 
 .card__icon {
   font-size: 0.2rem;
-  padding: 2rem;
-
+  padding: 1rem;
+  /* Tamanho do icone */
   /* background-color: rgba(255, 255, 255, 0.05);
   border-radius: 50%; */
 
@@ -151,12 +151,9 @@ img {
 }
 
 .card__image {
-
   padding: 0.2rem;
-
   /* background-color: rgba(255, 255, 255, 0.05);
   border-radius: 50%; */
-
   display: grid;
   place-items: center;
 }
@@ -184,31 +181,4 @@ footer>a:visited {
 
 footer>a:hover {
   color: var(--primary);
-}
-
-#searchbar {
-  text-align: center;
-  transition: 0.5s;
-}
-
-#searchbar_input,
-select,
-textarea {
-  color: var(--primary);
-  font-size: 3rem;
-  text-align: center;
-  background-color: var(--background-light);
-  border-radius: 21px;
-  border: 2px solid rgba(255, 255, 255, .05);
-  padding: .7rem;
-  transition: 0.5s;
-}
-
-#searchbar_input:focus,
-#searchbar_input:hover {
-  background-color: var(--background-focus);
-  color: var(--primary-focus);
-  border-color: var(--primary-focus);
-  outline: none;
-  transform: scale(1.2);
 }

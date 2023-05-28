@@ -60,7 +60,7 @@ const CARDS = [
     name: "Node-RED",
     icon: "",
     img: "icons/NodeRED.svg",
-    link: "http://192.168.0.205:1880",
+    link: "http://192.168.0.108:1880",
     color: "#730000fb",
   },
   {
@@ -98,43 +98,6 @@ const CARDS = [
     link: "http://192.168.0.2/",
     color: "#4acbd6ff",
   },
-    // {
-  //   name: "CasaOS",
-  //   icon: "",
-  //   link: "http://192.168.0.120:88",
-  //   img: "icons/Casaos.svg",
-  //   color: "#5865F2",
-  // },
-  // {
-  //   name: "Pi-hole",
-  //   icon: "",
-  //   link: "http://192.168.0.203:5353/admin",
-  //   img: "icons/Pi-hole.svg",
-  //   color: "#5865F2",
-  // },
-  // {
-  //   name: "ESPHome",
-  //   icon: "",
-  //   link: "http://192.168.0.203:6052",
-  //   img: "icons/ESPHome.svg",
-  //   color: "#5865F2",
-  // },
-  // {
-  //   name: "esp32testeswitches",
-  //   icon: "",
-  //   img: "icons/ESPHome.svg",
-  //   link: "http://192.168.0.14/",
-  //   clipboard: true,
-  //   color: "#5865F2",
-  // },
-  // {
-  //   name: "esp-base",
-  //   icon: "",
-  //   img: "icons/ESPHome.svg",
-  //   link: "http://192.168.0.50",
-  //   clipboard: true,
-  //   color: "#5865F2",
-  // },
 ];
 
 /* -------------------------------------------------------- */
@@ -256,7 +219,7 @@ const printCards = () => {
       var useElem = document.createElement("img");
       useElem.setAttribute("src", card.img);
 
-      currentCardIcon.appendChild(useElem);     
+      currentCardIcon.appendChild(useElem);
     } else {
       currentCardIcon = document.createElement("i");
       currentCardIcon.classList.add(card.icon);
